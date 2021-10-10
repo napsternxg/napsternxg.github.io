@@ -6,9 +6,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-{%- assign clean_content = content | escape -%}
-{%- if page.toc -%}
-{% include toc.html html=clean_content %}
-{%- else -%}
-{{ clean_content }}
-{%- endif -%}
+{% if page.toc %}
+{% include toc.html html=content sanitize=true %}
+{% else %}
+{{ content }}
+{% endif %}
