@@ -1,6 +1,7 @@
 ---
 title: Deep Learning
 layout: home
+toc: true
 ---
 
 <p>Some resources on deep learning I have enjoyed reading</p>

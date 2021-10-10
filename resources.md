@@ -1,8 +1,8 @@
 ---
 title: Playground
 layout: home
+toc: true
 ---
-
 
 <h2>Dataset links</h2>
 <p>Links to some useful datasets resources which I have used or an interested in.</p>
@@ -25,3 +25,16 @@ layout: home
 	<li><a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">Data is Plural</a>: <span>A google spreadsheet with links and description to some amazing datasets.</span></li>
 	<!--<li><a href=""></a>: <span></span></li>-->
 </ul>
+
+
+<h2 id="sail-2018">SAIL 2018 Resources</h2>
+<ul>
+	<li><a href="./assets/sail2018/LesMisrebles.gexf">Les Misrebles</a></li>
+	<li><a href="./assets/sail2018/MarvelCharacters.gexf">Marvel coming characters</a></li>
+	<li><a href="./assets/sail2018/ZacharyKarateClub.gexf">Zachary karate club</a></li>
+	<li><a href="./assets/sail2018/GermanBoys1880.gexf">German boys 1880/81</a></li>
+</ul>
+<a href="http://www.martingrandjean.ch/social-network-analysis-visualization-morenos-sociograms-revisited/">School network evolution over grades </a><br/>
+<a href="https://github.com/gephi/gephi/wiki/Datasets">Documentation about Gephi networks</a><br/>
+<a href="./assets/sail2018/Presentation.pptx">Presentation</a><br/>
+<a href="http://www.netlogoweb.org">NetLogo Web</a><br/>
