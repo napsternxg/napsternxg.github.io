@@ -42,6 +42,5 @@ theme_config:
 
 
 plugins:
-  - jekyll-toc
   - jekyll-feed
   - jekyll-seo-tag
