@@ -153,15 +153,15 @@ layout: home
                         <h4>Courses</h4>
                         <p>Online courses taken by me at: <a href="https://www.coursera.org/user/i/5d2cfcd5900164d8d29bb544a8ff60b5">Coursera</a></p>
                         <h4>Scholarly presence</h4>
-                        <p><a href="http://orcid.org/0000-0001-9931-1690">ORCID</a>,<a href="https://publons.com/a/1275221/">Publons</a>, 
-                            <a href="https://scholar.google.com/citations?user=013OA04AAAAJ&hl=en">Google Scholar</a>, <a href="https://academic.microsoft.com/#/detail/2192659826">Microsoft Academic Search</a>, and <a href="https://www.semanticscholar.org/author/Shubhanshu-Mishra/2777543">Semantic Scholar</a>
+                        <p><a href="http://orcid.org/{{ theme_config.scholarly_links.orcid }}">ORCID</a>,<a href="https://publons.com/a/{{ theme_config.scholarly_links.publons }}/">Publons</a>, 
+                            <a href="https://scholar.google.com/citations?user={{ theme_config.scholarly_links.google_scholar }}&hl=en">Google Scholar</a>, <a href="https://academic.microsoft.com/#/detail/{{ theme_config.scholarly_links.microsoft_academic }}">Microsoft Academic Search</a>, and <a href="https://www.semanticscholar.org/author/{{ theme_config.scholarly_links.semantic_scholar }}">Semantic Scholar</a>
                         </p>
                     </div>
                     <div class="col-sm-6">
                         <h4>Code</h4>
-                        <p>Code written by me at: <a href="https://github.com/napsternxg">Github</a></p>
+                        <p>Code written by me at: <a href="https://github.com/{{ theme_config.social_links.github }}">Github</a></p>
                         <h4>Professional</h4>
-                        <p>Professional Experiences: <a href="http://www.linkedin.com/in/shubhanshumishra">LinkedIn</a></p>
+                        <p>Professional Experiences: <a href="http://www.linkedin.com/in/{{ theme_config.social_links.linkedin }}">LinkedIn</a></p>
                     </div>
                 </div>
                 </div>

@@ -1,0 +1,27 @@
+---
+title: Playground
+layout: home
+---
+
+
+<h2>Dataset links</h2>
+<p>Links to some useful datasets resources which I have used or an interested in.</p>
+<ul>
+	<li><a href="">GDELT dataset</a>: <span>World events cateloged and classified.</span></li>
+	<li><a href="https://cse.google.com/cse/publicurl">Google Dataset Search</a>: <span>Search interface by google.</span></li>
+	<li><a href="https://www.quandl.com/c">Quandll</a>: <span>Repository of useful datasets.</span></li>
+	<li><a href="https://snap.stanford.edu/data/index.html">SNAP Dataset</a>: <span>Useful network datasets.</span></li>
+	<li><a href="http://www.kdnuggets.com/2015/04/awesome-public-datasets-github.html">Datasets on Github</a>: <span>List compiled of publicaly available datasets on Github.</span></li>
+	<li><a href="http://911datasets.org/index.php/Main_Page">911 Dataset</a>: <span>Crowdsourced dataset about 911.</span></li>
+	<li><a href="http://iv.slis.indiana.edu/db/index.html">Indiana University Network Data</a>: <span>A set of very large data sets, including some non-network data sets, compiled by the School of Library and Information Science at Indiana University. Network data sets include the NBER data set of US patent citations and a data set of links between articles in the on-line encyclopedia Wikipedia.</span></li>
+	<li><a href="http://networkdata.ics.uci.edu/resources.php">UCI Network Data</a>: <span>Links to many important network datasets or lists to network datasets.</span></li>
+	<li><a href="https://github.com/caesar0301/awesome-public-datasets">List of datasets</a>: <span>Organized on Github page.</span></li>
+	<li><a href="http://www.google.com/publicdata/directory">Google Public Datasets</a>: <span>Search many publically available datasets.</span></li>
+	<li><a href="http://commoncrawl.org/">Common Crawl</a>: <span>Crawled data from internet.</span></li>
+	<li><a href="http://webdatacommons.org/">WebDataCommons</a>: <span>Data parsed from CommonCrawl</span></li>
+	<li><a href="http://archive.ics.uci.edu/ml/">UCI ML</a>: <span>UCI datasets for Machine Learning tasks.</span></li>
+	<li><a href="https://aws.amazon.com/datasets">Amazon datasets</a>: <span>Large Scale datasets for Commerical Level Analysis.</span></li>
+	<li><a href="http://www.kdnuggets.com/datasets/index.html">KDNuggets</a>: <span>Large collection of datasets by KDNuggets.</span></li>
+	<li><a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">Data is Plural</a>: <span>A google spreadsheet with links and description to some amazing datasets.</span></li>
+	<!--<li><a href=""></a>: <span></span></li>-->
+</ul>
