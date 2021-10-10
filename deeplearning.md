@@ -19,6 +19,6 @@ toc: true
 </ul>
 <h2>Introductory presentation</h2>
 <div>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/pxgoLAand9HVyx" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/pxgoLAand9HVyx" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe> 
 <div style="margin-bottom:5px"><strong><a href="//www.slideshare.net/shubhanshu/lets-learn-deep" title="Let’s learn deep" target="_blank">Let’s learn deep</a></strong> from <strong><a href="//www.slideshare.net/shubhanshu" target="_blank">Shubhanshu Mishra</a></strong></div>
 </div>
