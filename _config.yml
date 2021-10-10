@@ -19,3 +19,23 @@ theme_config:
     semantic_scholar: Shubhanshu-Mishra/2777543
     orcid: 0000-0001-9931-1690
     publons: "1275221"
+  
+  nav:
+    urls:
+      - url: https://shubhanshu.com/blog
+        title: Blog
+      - url: https://github.com/napsternxg
+        title: GitHub
+    drop_urls:
+      - url: ./assets/pdfs/Shubhanshu_Mishra_CV.pdf
+        title: Resume
+      - url: https://socialmediaie.github.io/
+        title: SocialMediaIE
+      - url: https://shubhanshu.com/awesome-scholarly-data-analysis/
+        title: Awesome Scholarly Data Analysis
+      - url: https://shubhanshu.com/awesome-causality/
+        title: Awesome Causality
+      - url: http://smexyyweby.wordpress.com/
+        title: Personal Blog
+      - url: https://linkedin.com/in/shubhanshumishra
+        title: LinkedIn

@@ -7,28 +7,36 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+          <a class="navbar-brand" href="/">{{ site.title }}</a>
        </div>
        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+         {%- assign default_paths = site.pages | map: "path" -%}
+         {%- assign page_paths = site.header_pages | default: default_paths -%}
           <ul class="nav navbar-nav pull-right">
              <li class="active"><a href="#">Home</a></li>
-             <li><a href="https://shubhanshu.com/blog" target="_blank">Blog</a></li>
-             <li><a href="https://github.com/napsternxg">Github</a></li>
+             {%- for nav_url in theme_config.nav.urls -%}
+               {%- if nav_url.title -%}
+               <li><a href="{{ nav_url.url }}" target="_blank">{{ nav_url.title | escape }}</a></li>
+               {%- endif -%}
+            {%- endfor -%}
              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Useful Links<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                   <li><a href="https://shubhanshu.com/awesome-scholarly-data-analysis/" target="_blank">Awesome Scholarly Data Analysis</a></li>
-                   <li><a href="https://shubhanshu.com/awesome-causality/" target="_blank">Awesome Causality</a></li>
-                   <li><a href="./deeplearning.html">DeepLearning Resources</a></li>
-                   <li><a href="./resources.html">General resources</a></li>
-                   <li class="divider"></li>
-                   <li><a href="./assets/pdfs/Shubhanshu_Mishra_CV.pdf">Resume</a></li>
-                   <li><a href="https://linkedin.com/in/shubhanshumishra">LinkedIn</a></li>
-                   <li><a href="http://smexyyweby.wordpress.com/">Personal Blog</a></li>
+                  {%- for path in page_paths -%}
+                     {%- assign my_page = site.pages | where: "path", path | first -%}
+                     {%- if my_page.title -%}
+                     <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                     {%- endif -%}
+                  {%- endfor -%}
+                  <li class="divider"></li>
+                  {%- for nav_url in theme_config.nav.drop_urls -%}
+                     {%- if nav_url.title -%}
+                     <li><a href="{{ nav_url.url }}" target="_blank">{{ nav_url.title | escape }}</a></li>
+                     {%- endif -%}
+                  {%- endfor -%}
                 </ul>
              </li>
           </ul>
-          <!--<h3 class="text-muted">Shubhanshu Mishra</h3>-->
        </div>
     </div>
  </nav>
