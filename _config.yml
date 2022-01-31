@@ -1,0 +1,46 @@
+# Jekyll configuration
+title: Shubhanshu Mishra
+description: Researcher in Information Science
+url: shubhanshu.com
+markdown: GFM
+
+google_analytics: UA-44393164-1
+
+
+theme_config:
+  social_links:
+    twitter: TheShubhanshu
+    github: napsternxg
+    linkedin: shubhanshumishra
+  
+  scholarly_links:
+    google_scholar: 013OA04AAAAJ
+    microsoft_academic: "2192659826"
+    semantic_scholar: Shubhanshu-Mishra/2777543
+    orcid: 0000-0001-9931-1690
+    publons: "1275221"
+  
+  nav:
+    urls:
+      - url: https://shubhanshu.com/blog
+        title: Blog
+      - url: https://github.com/napsternxg
+        title: GitHub
+    drop_urls:
+      - url: ./assets/pdfs/Shubhanshu_Mishra_CV.pdf
+        title: Resume
+      - url: https://socialmediaie.github.io/
+        title: SocialMediaIE
+      - url: https://shubhanshu.com/awesome-scholarly-data-analysis/
+        title: Awesome Scholarly Data Analysis
+      - url: https://shubhanshu.com/awesome-causality/
+        title: Awesome Causality
+      - url: http://smexyyweby.wordpress.com/
+        title: Personal Blog
+      - url: https://linkedin.com/in/shubhanshumishra
+        title: LinkedIn
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

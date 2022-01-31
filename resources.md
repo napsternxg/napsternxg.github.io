@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+title: Playground
+layout: home
+toc: true
+---
 
-    <title>Playground | Shubhanshu Mishra</title>
-
-  </head>
-
-  <body>
 <h2>Dataset links</h2>
 <p>Links to some useful datasets resources which I have used or an interested in.</p>
 <ul>
@@ -32,31 +25,16 @@
 	<li><a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0">Data is Plural</a>: <span>A google spreadsheet with links and description to some amazing datasets.</span></li>
 	<!--<li><a href=""></a>: <span></span></li>-->
 </ul>
-</body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-44393164-1', 'shubhanshu.com');
-  ga('send', 'pageview');
 
-</script>
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Person",
-  "name" : "Shubhanshu Mishra",
-  "url" : "http://shubhanshu.com",
-  "logo" : "http://shubhanshu.com/assets/images/pic.jpg"
-  "sameAs" : [
-    "https://www.facebook.com/shubhanshu.mishra",
-    "https://instagram.com/shubhanshumishra/",
-	"https://twitter.com/TheShubhanshu"
-    "http://www.linkedin.com/in/shubhanshumishra",
-    "https://plus.google.com/+ShubhanshuMishra"
-  ]
-}
-</script>
-</html>
+<h2 id="sail-2018">SAIL 2018 Resources</h2>
+<ul>
+	<li><a href="./assets/sail2018/LesMisrebles.gexf">Les Misrebles</a></li>
+	<li><a href="./assets/sail2018/MarvelCharacters.gexf">Marvel coming characters</a></li>
+	<li><a href="./assets/sail2018/ZacharyKarateClub.gexf">Zachary karate club</a></li>
+	<li><a href="./assets/sail2018/GermanBoys1880.gexf">German boys 1880/81</a></li>
+</ul>
+<a href="http://www.martingrandjean.ch/social-network-analysis-visualization-morenos-sociograms-revisited/">School network evolution over grades </a><br/>
+<a href="https://github.com/gephi/gephi/wiki/Datasets">Documentation about Gephi networks</a><br/>
+<a href="./assets/sail2018/Presentation.pptx">Presentation</a><br/>
+<a href="http://www.netlogoweb.org">NetLogo Web</a><br/>
