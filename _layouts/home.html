@@ -7,6 +7,6 @@ layout: default
 {%- endif -%}
 
 {% if page.toc %}
-{% include toc.html html=content sanitize=true %}
+{% include toc.html html=content sanitize=false %}
 {% endif %}
 {{ content }}
