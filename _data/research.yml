@@ -1,0 +1,9 @@
+- name: "Social Media Information Extraction: multi-task, multi-lingual, & multi-contextual"
+  url: https://www.thedatascienceconference.com/agenda
+  venue: The Data Science Conference 2022
+  slides: /assets/talks/data_science_conf2022.pdf
+
+- name: "NTULM: Enriching Social Media Text Representations with Non-Textual Units"
+  url: https://www.youtube.com/watch?v=BjAmQjs0sZk
+  venue: W-NUT 2022
+  slides: /assets/wnut2022/ntulm-wnut2022-slides.pdf
