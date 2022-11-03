@@ -7,3 +7,8 @@
   url: https://www.youtube.com/watch?v=BjAmQjs0sZk
   venue: W-NUT 2022
   slides: /assets/wnut2022/ntulm-wnut2022-slides.pdf
+
+- name: "TweetNERD - End to End Entity Linking Benchmark for Tweets"
+  url: https://www.youtube.com/watch?v=H5ypIHterWQ
+  venue: Neurips 2022
+  slides: /assets/TweetNERD_neurips2022.pdf
