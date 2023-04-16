@@ -39,6 +39,8 @@ theme_config:
         title: Personal Blog
       - url: https://linkedin.com/in/shubhanshumishra
         title: LinkedIn
+      - url: https://shubhanshu.com/awesome-movies-compare/
+        title: Awesome Movies Compare
 
 
 plugins:
