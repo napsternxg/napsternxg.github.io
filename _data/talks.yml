@@ -17,3 +17,8 @@
   url: https://www.youtube.com/watch?v=Ug-d2tK3PDQ
   venue: W-NUT 2022
   slides: /assets/wnut2022/candgen-wnut2022-slides.pdf
+
+- name: "Contextual Language Models: Using Spatio-temporal and Social Context to improve Language Models"
+  url: https://calendars.illinois.edu/detail/5115?eventId=33447178&listType=list
+  venue: Champaign-Urbana Data Science User Group, University of Illinois Research Park
+  slides: /assets/talks/Contextual_LM_Presentation_UIUC.pdf
