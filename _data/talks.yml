@@ -11,7 +11,7 @@
 - name: "TweetNERD - End to End Entity Linking Benchmark for Tweets"
   url: https://www.youtube.com/watch?v=H5ypIHterWQ
   venue: Neurips 2022
-  slides: /assets/TweetNERD_neurips2022.pdf
+  slides: /assets/talks/TweetNERD_neurips2022.pdf
 
 - name: "Robust Candidate Generation for Entity Linking on Short Social Media Texts"
   url: https://www.youtube.com/watch?v=Ug-d2tK3PDQ
